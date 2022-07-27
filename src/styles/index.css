@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import "Nav.css";
+@import "Shop.css";
+@import "Cart.css";
+@import "History.css";
+@import "Coupons.css";
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background-color: #f0fff9;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+input {
+    border: none;
+    border-bottom: rgba(33, 11, 44, 0.4) solid 1px;
+    background-color: transparent;
+}

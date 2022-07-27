@@ -1,0 +1,80 @@
+.history {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchOrders {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.searchButton {
+    border: none;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #210B2C;
+    border-radius: 10px;
+    color: white;
+}
+
+.searchOrders label {
+    width: 40%;
+}
+
+.searchOrders label input {
+    width: 100%;
+    font-size: 25px;
+}
+
+.searchOrders label input:focus {
+    border: none;
+    transform: scale(1.03);
+}
+
+.userOrders {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.orderInfo {
+    width: 80%;
+    padding-bottom: 20px;
+    border-bottom: #210B2C solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    color: #210B2C;
+}
+
+.orderId {
+    font-size: 20px;
+}
+
+.orderMeals {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.orderMeal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    color: #210B2C;
+}
+
+.orderPrice {
+    font-size: 25px;
+}

@@ -1,0 +1,18 @@
+.nav {
+    height: 80px;
+    background-color: #210B2C;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav button {
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: #210B2C;
+    color: #f0fff9;
+    font-size: 20px;
+    cursor: pointer;
+}

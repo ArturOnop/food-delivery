@@ -1,0 +1,68 @@
+.cartPage {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formBoard {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border: #210B2C solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.form label {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form label input {
+    width: 100%;
+    font-size: 16px;
+}
+
+.form label input:focus {
+    border: none;
+    transform: scale(1.03);
+}
+
+.formSubmit {
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.formSubmit:hover {
+    transform: scale(1.1);
+}
+
+.cart {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.amountBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 20px;
+}
+
+.successOrder {
+    font-size: 22px;
+    color: #FFA69E;
+}

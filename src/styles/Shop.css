@@ -1,0 +1,80 @@
+.shopPage {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.shops {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: #210B2C solid;
+    border-radius: 10px;
+}
+
+.shopsTitle {
+    text-align: center;
+}
+
+.shopsList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin: 10px;
+}
+
+.shopsList button {
+    border: #210B2C solid;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: #210B2C;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.choose {
+    font-weight: bold;
+    font-size: 30px;
+    color: #210B2C;
+}
+
+.mealsList {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.meal {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: #210B2C solid;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    row-gap: 10px;
+    color: #210B2C;
+}
+
+.mealImg {
+    height: 100px;
+}
+
+.mealTitle, .mealPrice {
+    font-size: 18px;
+}
+
+.meal button {
+    border: none;
+    background-color: transparent;
+    font-size: 22px;
+    cursor: pointer;
+}
